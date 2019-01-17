@@ -1,0 +1,34 @@
+html {
+    background-color:lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+#maincontent {
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 728px;
+    height: 90px;
+
+}
+
+#backdrop {
+    position: relative;
+    margin: 0 auto;
+    z-index: -100;
+}
+
+#mario {
+    z-index: 100;
+    position: absolute;
+    bottom: 15px;
+}
+
+#peach {
+    z-index: 50;
+    position: absolute;
+    bottom: 35px;
+}
+
